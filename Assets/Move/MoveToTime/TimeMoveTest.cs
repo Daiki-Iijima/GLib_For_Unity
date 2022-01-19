@@ -11,7 +11,7 @@ public class TimeMoveTest: MonoBehaviour
     [SerializeField] private Transform _startTransform;
     [SerializeField] private Transform _endTransform;
 
-    [SerializeField] private float _targetTime = 0f;
+    [SerializeField] private float _moveTime = 0f;  //  ‰½•bŠÔ‚ÅˆÚ“®‚·‚é‚©
  
     void Start()
     {
@@ -19,7 +19,7 @@ public class TimeMoveTest: MonoBehaviour
         move = new TimeMove();
 
         //  ˆÚ“®æ‚ğ“o˜^
-        move.SetMoveData(_startTransform.position,_endTransform.position,_targetTime);
+        move.SetMoveData(_startTransform.position,_endTransform.position,_moveTime);
 
         //  ˆÚ“®‚ğŠJn
         move.Start();
