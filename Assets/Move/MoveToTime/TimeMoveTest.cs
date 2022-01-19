@@ -20,6 +20,7 @@ public class TimeMoveTest: MonoBehaviour
 
         //  ˆÚ“®æ‚ğ“o˜^
         move.SetMoveData(_startTransform.position,_endTransform.position,_targetTime);
+
         //  ˆÚ“®‚ğŠJn
         move.Start();
     }
